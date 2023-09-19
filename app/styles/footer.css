@@ -1,0 +1,85 @@
+#FooterPrincipal {
+
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    color: var(--white);
+    background-image: url(/img/FondoSInLogo.png);
+    background-size: 75;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+
+#ElementosMenuCursos {
+    width: 70%;
+    height: 90%;
+    margin: auto;
+
+}
+
+.FooterWrapper {
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+}
+
+.ExtraWrapper{
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+}
+
+.TituloFooterMenu{
+    margin-right: auto;
+    margin-left: 10%;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.FooterElement {
+    background-color: var(--red);
+    margin: 5px;
+    align-items: left;
+    width: 80%;
+    margin-left: 15%;
+    text-align: left;
+    border-radius: 7px;
+    border: var(--white) solid 1px;
+    transition: 0.45s;
+}
+
+.FooterElement:hover {
+    background-color: var(--darkred);
+    cursor: pointer;
+}
+
+
+.FooterElement > a {
+
+    text-decoration: none;
+    padding : 5px 0px;
+}
+.FooterElement > a > span {
+    margin-left: 20px
+} 
+
+.ExtraElement {
+    margin: 5px;
+    align-items: left;
+    width: 100%;  
+    padding: 5px 0;
+    text-align: left;
+}
+
+#TextosCopyright {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}

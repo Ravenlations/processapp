@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+
+#PageTitle {
+    width: 80%;
+    height: auto;
+    background-color: var(--white);
+    color: var(--red);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    border-top: var(--gray) solid 1px;
+    border-bottom: var(--gray) solid 1px;
+}
+
+#PageTextContainer {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.Bold {
+    font-weight: bold;
+}
+
+#PageImgContainer2Row {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#PageImgContainer2Row > img {
+    width: 45%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#PageImgContainer {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#MinusvalidoImgText{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#MinusvalidoImgText > img {
+    width: 60px;
+    height: 60px;
+    margin: auto 0;
+    padding-right: 10px;
+    
+}
+
+#MinusvalidoTextContainer > p {
+    width: 100%;
+    height: auto;
+    margin: auto 0;
+    padding: 3px;
+}
+
+
+#VirtualClassroomImgText > img {
+    width: 60%;
+    aspect-ratio: 37/19;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 0%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#VirtualClassroomDownloadButtons {
+    width: 100%;
+    height: auto;
+    margin: auto 0;
+    padding: 3px;
+}
+
+#VirtualClassroomDownloadButtons > div {
+    margin: 20px;
+}
+
+.DownloadButton > a > img {
+    height: 50px;
+}
+
+#MailProcess:link {
+    color: var(--darkred);
+    text-decoration: none;
+}
+
+#MailProcess:visited {
+    color: var(--darkred);
+    text-decoration: none;
+}
+
+.EnlacesLegales > a:link {
+    color: var(--red);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.EnlacesLegales > a:visited {
+    color: var(--red);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.LegalContainer > div {
+    margin: 10px;
+}
+
+#ConvenioContainer {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content:center;
+    align-items: top;
+}
+
+#ConvenioImgContainer > img {
+    height: 500px;
+    aspect-ratio: 196/177;
+}
+
+#MisionGraph > img {
+    height: 150px;
+}
+
+.CursoEnlace {
+    color: var(--white);
+    text-decoration: none;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: var(--red);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid var(--black);
+}
+
+.CursoEnlace:link {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.CursoEnlace:visited {
+    color: var(--white);
+    text-decoration: none;
+}
+
+
+#BannerPaginaPrincipal{
+    width: 100vw;
+    height: 240px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--red);
+    background-image: url(/img/procesinsta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#BannerPaginaPrincipal > span{
+
+
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    height: 60%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.774);
+    border-radius: 10px;
+    font-size: 30px;
+    border: 2px solid var(--red);
+
+    justify-content: center;
+    align-items: center;
+}
+
+#TextoPaginaPrincipal{
+    padding: 20px 0%;
+    justify-content: space-evenly;
+}
+
+
+.FormElement {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.InputElement > input {
+    margin: 0 10px;
+}
+
+.FormButton  {
+    margin: 0;
+}
+
+
+.FormLink:link {
+    color: var(--red);
+    text-decoration: none;
+}
+
+.FormLink:visited {
+    color: var(--red);
+    text-decoration: none;
+}
+
+.FormButtonContainer {
+    margin-left: 17%;
+}
+
+button {
+    padding: 0 10px;
+    height: 40px;
+    background-color: var(--red);
+    color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+iframe {
+    height: 100%;
+}
+
+.ContactForm {
+    padding: 30px 100px;
+}
+
+#PageiFrameContainer {
+    height: 315px;
+    width: 560px;
+    margin: 0 auto;
+}
+
+#ContactContainer {
+    margin: 0 auto;
+    margin-right: 30%;
+}
+
+.CursoEnlaceContainer {
+
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+
+#TituloFooterMenu {
+    height: 250px;
+    justify-content: space-evenly;
+}

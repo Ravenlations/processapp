@@ -1,0 +1,122 @@
+.CursoContainer {
+    border: 2px solid var(--black);
+    border-radius: 15px;
+    width: 37vw;
+    
+    height: auto;
+    margin: 2.5%;   
+}
+
+.FotoCursoContainer > img {
+    width: 10vw;
+    height: auto;
+    aspect-ratio: 22/31 ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px 0 0 15px;
+}
+
+.TextoInfoCursoContainer{
+    width: 80vw;
+    height: auto;
+    text-align: left;
+    
+}
+
+.TituloCursoContainer {
+    width: auto;
+    height: auto;
+    background-color: var(--red);
+    text-align: left;
+    margin: 2.5% 2.5%;
+    border-radius: 7px;
+    border: var(--gray) solid 2px;
+    color : var(--white);
+}
+
+.TituloCurso {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.TituloInfoExtra {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: var(--darkred);
+    border-top: 2px solid var(--white);
+}
+
+.CodPlan {
+    width: 75%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.IdPlan {
+    width: 25%;
+    height: 100%;
+    margin-right: 10px;
+
+    text-align: right;
+}
+
+.ElementoCurso {
+    width: 100%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.CursoDescripcion{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.ElementosCursoContainer {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 2px solid var(--gray);
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.EnlaceCurso{
+    color: black;
+}
+.EnalceCurso:link{
+    color: var(--black);
+}
+
+.EnlaceCurso:visited{
+    color: var(--black);
+}
+
+
+
+.Wrap {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#PageText {
+    min-width: 100%;
+
+    margin: 0;
+}
+
