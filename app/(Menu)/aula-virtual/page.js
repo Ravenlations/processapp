@@ -1,6 +1,7 @@
 
 
 import '../../styles/page.css'
+import Image from 'next/image'
 
 export default function Page() {
     return (
@@ -24,7 +25,7 @@ export default function Page() {
                 <li>Ver los foros de los cursos</li>
             </ul>
 
-            <img src='/img/AulaVirtual/moodle-mobile.png' />
+            <Image src='/img/AulaVirtual/moodle-mobile.png' alt='Logo Moodle'/>
 
         </div>
 
@@ -32,14 +33,14 @@ export default function Page() {
             
             <div id="VirtualClassroomAndroidButton" className='FlexboxColumn DownloadButton'>
                 <a href="https://play.google.com/store/apps/details?id=com.moodle.moodlemobile&hl=es&gl=US">
-                    <img src='/img/AulaVirtual/google-play.png' />
+                    <Image src='/img/AulaVirtual/google-play.png' alt='Logo de Google'/>
                 </a>
                 <p>Descarga la aplicacion para Android</p>
             </div>
 
             <div id="VirtualClassroomAppleButton" className='FlexboxColumn DownloadButton'>
                 <a href="https://apps.apple.com/es/app/moodle/id633359593">
-                    <img src='/img/AulaVirtual/app-store.svg' />
+                    <Image src='/img/AulaVirtual/app-store.svg' alt='Logo de Apple'/>
                 </a>
                 <p>Descarga la aplicacion para Apple</p>
             </div>

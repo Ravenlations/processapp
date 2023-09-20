@@ -45,7 +45,7 @@ export async function NodoCursos() {
     return (
         <>
         
-        <div id="PageText" className="FlexboxRow Wrap ">
+        <div id="PageText" className="FlexboxRow Wrap">
          {RenderedItems}
         </div>
 

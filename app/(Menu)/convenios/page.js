@@ -1,5 +1,6 @@
 
 import '../../styles/page.css'; 
+import Image from 'next/image'
 
 export default function Page() {
     return (
@@ -29,7 +30,7 @@ export default function Page() {
             </div>
 
             <div id='ConvenioImgContainer'>
-                <img src='/img/Convenios/logos1.webp' />
+                <Image src='/img/Convenios/logos1.webp' alt='Imagen de los convenios'/>
             </div>
 
         </div>

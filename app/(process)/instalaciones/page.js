@@ -1,7 +1,7 @@
 
 
 import '../../styles/page.css'; 
-
+import Image from 'next/image'
 
 export default function Page() {
     return (
@@ -14,12 +14,12 @@ export default function Page() {
 
 
             <div id="PageImgContainer" className="FlexboxRow">
-                <img src='/img/Instalaciones/Instalaciones.jpg' />  
+                <Image src='/img/Instalaciones/Instalaciones.jpg' alt='Fotos de las aulas'/>  
             </div>
 
             <div id="MinusvalidoImgText" className='FlexboxRow'> 
 
-                <img src='/img/Instalaciones/minusvalido.png' />
+                <Image src='/img/Instalaciones/minusvalido.png' alt='Logo de los minusvalidos' />
 
                 <div id="MinusvalidoTextContainer" className='FlexboxColumn'>
                     <p> Con el entorno mejor dotado para el aprendizaje de las distintas materias.  </p>

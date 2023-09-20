@@ -1,7 +1,7 @@
 
 
 import '../../styles/page.css'; 
-
+import Image from 'next/image'
 
 export default function Page() {
     return (
@@ -14,8 +14,8 @@ export default function Page() {
 
 
         <div id="PageImgContainer2Row" className="FlexboxRow">
-            <img src='/img/MedioAmbiente/FinanciadoEuropeo.webp' /> 
-            <img src='/img/MedioAmbiente/PlanRecuperacion.webp' /> 
+            <Image src='/img/MedioAmbiente/FinanciadoEuropeo.webp' alt='Logo Europeo' /> 
+            <Image src='/img/MedioAmbiente/PlanRecuperacion.webp' alt='Logo Europeo 2' /> 
         </div>
         
 

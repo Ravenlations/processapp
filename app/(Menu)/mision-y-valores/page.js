@@ -1,6 +1,7 @@
 
 
 import '../../styles/page.css';
+import Image from 'next/image'
 
 export default function Page() {
     return (
@@ -30,7 +31,7 @@ export default function Page() {
 
         <div id='GraphListContainer' className='FlexboxRow'>
             <div id='MisionGraph'>
-                <img src='/img/MisionValores/Graph.png' />
+                <Image src='/img/MisionValores/Graph.png' alt='Grafico Rojo' />
             </div>
 
             <div id='MisionText'>

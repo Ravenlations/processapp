@@ -1,6 +1,6 @@
 
 import './styles/plantillaCursos.css'
-
+import Image from 'next/image'
 
 export default function CursoComponent( {Titulo, Imagen, CodPlan, IdPlan, Horas, Alumnos, FechaInicio, Horario, Descripcion, id}){
     
@@ -13,7 +13,7 @@ export default function CursoComponent( {Titulo, Imagen, CodPlan, IdPlan, Horas,
 
     ]
 
-    const RenderElementos = ElementoData.map((item) => (
+    const RenderElementos = ElementoData.map((item,i) => (
     
         <div className="ElementoCurso FlexboxRow">
 
@@ -33,7 +33,7 @@ return (
         <div id="CursoContainer1" className="FlexboxRow CursoContainer">
 
             <div className="FotoCursoContainer">
-                <img src={"https://process-control.pockethost.io/api/files/zvcer496dtdgkpm/"+ id + "/" + Imagen} /> 
+                <Image src={"https://process-control.pockethost.io/api/files/zvcer496dtdgkpm/"+ id + "/" + Imagen} alt='Imagen del folleto del curso'/> 
             </div>
 
             <div className="TextoInfoCursoContainer FlexboxColumn">
