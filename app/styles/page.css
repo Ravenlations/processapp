@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-
-
 #PageTitle {
     width: 80%;
     height: auto;
@@ -11,7 +9,6 @@
     font-size: 40px;
     font-weight: bold;
     text-align: left;
-
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -29,9 +26,7 @@
     padding: 10px;
 }
 
-.Bold {
-    font-weight: bold;
-}
+.Bold {font-weight: bold;}
 
 #PageImgContainer2Row {
     width: 80%;
@@ -73,8 +68,7 @@
     width: 60px;
     height: 60px;
     margin: auto 0;
-    padding-right: 10px;
-    
+    padding-right: 10px; 
 }
 
 #MinusvalidoTextContainer > p {
@@ -83,7 +77,6 @@
     margin: auto 0;
     padding: 3px;
 }
-
 
 #VirtualClassroomImgText > img {
     width: 60%;
@@ -102,13 +95,9 @@
     padding: 3px;
 }
 
-#VirtualClassroomDownloadButtons > div {
-    margin: 20px;
-}
+#VirtualClassroomDownloadButtons > div {margin: 20px;}
 
-.DownloadButton > a > img {
-    height: 50px;
-}
+.DownloadButton > a > img {height: 50px;}
 
 #MailProcess:link {
     color: var(--darkred);
@@ -132,9 +121,7 @@
     font-weight: bold;
 }
 
-.LegalContainer > div {
-    margin: 10px;
-}
+.LegalContainer > div {margin: 10px;}
 
 #ConvenioContainer {
     width: 80%;
@@ -152,9 +139,7 @@
     aspect-ratio: 196/177;
 }
 
-#MisionGraph > img {
-    height: 150px;
-}
+#MisionGraph > img {height: 150px;}
 
 .CursoEnlace {
     color: var(--white);
@@ -183,7 +168,6 @@
     text-decoration: none;
 }
 
-
 #BannerPaginaPrincipal{
     width: 100vw;
     height: 240px;
@@ -197,8 +181,6 @@
 }
 
 #BannerPaginaPrincipal > span{
-
-
     font-family: 'Montserrat', sans-serif;
     width: 40%;
     height: 60%;
@@ -207,7 +189,6 @@
     border-radius: 10px;
     font-size: 30px;
     border: 2px solid var(--red);
-
     justify-content: center;
     align-items: center;
 }
@@ -217,20 +198,14 @@
     justify-content: space-evenly;
 }
 
-
 .FormElement {
     width: 70%;
     margin: 10px auto;
 }
 
-.InputElement > input {
-    margin: 0 10px;
-}
+.InputElement > input {margin: 0 10px;}
 
-.FormButton  {
-    margin: 0;
-}
-
+.FormButton  {margin: 0;}
 
 .FormLink:link {
     color: var(--red);
@@ -242,9 +217,7 @@
     text-decoration: none;
 }
 
-.FormButtonContainer {
-    margin-left: 17%;
-}
+.FormButtonContainer {margin-left: 17%;}
 
 button {
     padding: 0 10px;
@@ -258,13 +231,9 @@ button {
     cursor: pointer;
 }
 
-iframe {
-    height: 100%;
-}
+iframe {height: 100%;}
 
-.ContactForm {
-    padding: 30px 100px;
-}
+.ContactForm {padding: 30px 100px;}
 
 #PageiFrameContainer {
     height: 315px;
@@ -278,11 +247,9 @@ iframe {
 }
 
 .CursoEnlaceContainer {
-
     width: 60%;
     margin: 0 auto;
     margin-top: 5px;
-
 }
 
 #TituloFooterMenu {

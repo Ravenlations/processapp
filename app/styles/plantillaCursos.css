@@ -2,7 +2,6 @@
     border: 2px solid var(--black);
     border-radius: 15px;
     width: 37vw;
-    
     height: auto;
     margin: 2.5%;   
 }
@@ -19,8 +18,7 @@
 .TextoInfoCursoContainer{
     width: 80vw;
     height: auto;
-    text-align: left;
-    
+    text-align: left;  
 }
 
 .TituloCursoContainer {
@@ -61,7 +59,6 @@
     width: 25%;
     height: 100%;
     margin-right: 10px;
-
     text-align: right;
 }
 
@@ -95,19 +92,11 @@
     padding-bottom: 5px;
 }
 
+.EnlaceCurso{color: black;}
 
-.EnlaceCurso{
-    color: black;
-}
-.EnalceCurso:link{
-    color: var(--black);
-}
+.EnalceCurso:link{color: var(--black);}
 
-.EnlaceCurso:visited{
-    color: var(--black);
-}
-
-
+.EnlaceCurso:visited{color: var(--black);}
 
 .Wrap {
     flex-wrap: wrap;
@@ -116,7 +105,5 @@
 
 #PageText {
     min-width: 100%;
-
     margin: 0;
 }
-

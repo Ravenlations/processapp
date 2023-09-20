@@ -1,5 +1,4 @@
 #FooterPrincipal {
-
     width: 100%;
     height: auto;
     padding-top: 40px;
@@ -14,12 +13,10 @@
     background-repeat: no-repeat;
 }
 
-
 #ElementosMenuCursos {
     width: 70%;
     height: 90%;
     margin: auto;
-
 }
 
 .FooterWrapper {
@@ -42,7 +39,6 @@
     font-size: 20px;
 }
 
-
 .FooterElement {
     background-color: var(--red);
     margin: 5px;
@@ -60,12 +56,11 @@
     cursor: pointer;
 }
 
-
 .FooterElement > a {
-
     text-decoration: none;
     padding : 5px 0px;
 }
+
 .FooterElement > a > span {
     margin-left: 20px
 } 

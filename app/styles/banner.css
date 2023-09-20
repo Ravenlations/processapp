@@ -8,15 +8,13 @@
     --red : #ff3131;
     --darkred : #9a0707;
     --black : #000000;
-    --white : #ffffff;
-    
+    --white : #ffffff; 
 }
 
 .FlexboxRow {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-
 }
 
 .FlexboxColumn {
@@ -30,7 +28,6 @@
     height: auto;
 }
 
-
 #ZonaIconosContacto {
     background-color: var(--black);
     color: var(--white);
@@ -41,6 +38,7 @@
     margin-left: 48%;
     margin-right: auto;
 }
+
 #ZonaIconos > i {font-size: 25px;}
 
 #ZonaIconos > a > i {
@@ -56,6 +54,7 @@
     margin-right: 2%;
     justify-content: right;
 }
+
 #ZonaContacto > div {
     margin-left: 10px;
     margin-right: 10px;
@@ -72,7 +71,6 @@
     top: 0;
     left: 0;
 }
-
 
 #ZonaMenu {
     background-color: var(--red);
@@ -106,7 +104,6 @@
     color: var(--white);
     cursor: pointer;
 }
-
 
 
 /*Colores de los enlaces para la navegacion web interna*/
