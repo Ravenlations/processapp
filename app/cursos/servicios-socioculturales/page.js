@@ -23,8 +23,10 @@ export async function NodoCursos() {
     /*Renderizamos todo lo que tiene que ir en el tag*/
 
     const RenderedItems = courses?.items.map((item,i) => (    
-
+        
+        <div key={item.id}>
         <CursoComponent
+            
             Titulo={item.NombreCurso}
             CodPlan={item.CodPlan}
             IdPlan={item.CodEspecial}
@@ -36,6 +38,7 @@ export async function NodoCursos() {
             id={item.id}
             Imagen={item.Imagen}
         />
+        </div>
 
 
     ));

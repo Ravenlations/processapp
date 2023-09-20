@@ -19,7 +19,7 @@ function Cursos() {
 
         return (
 
-            <div className='FlexboxColumn CursoEnlaceContainer'>
+            <div key={Data[0]} className='FlexboxColumn CursoEnlaceContainer'>
 
                 <a className="CursoEnlace" href={Data[1]}> {Data[0]} </a>
         

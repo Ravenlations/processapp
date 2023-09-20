@@ -1,5 +1,6 @@
 
 import '../styles/plantillaCursos.css'
+import Image from 'next/image'
 
 
 export default function CursoComponent( {Titulo, Imagen, CodPlan, IdPlan, Horas, Alumnos, FechaInicio, Horario, Descripcion, id}){
@@ -15,7 +16,7 @@ export default function CursoComponent( {Titulo, Imagen, CodPlan, IdPlan, Horas,
 
     const RenderElementos = ElementoData.map((item) => (
     
-        <div className="ElementoCurso FlexboxRow">
+        <div key={item[3]} className="ElementoCurso FlexboxRow">
 
             <div className="IconoElementoCurso"><i className={"fa-" + item[0] + " fa-" + item[1]} ></i> {item[2]} </div>
             <div className="TextoElementoCurso">{item[3]}</div>

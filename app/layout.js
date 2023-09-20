@@ -14,7 +14,7 @@ function ZonaMenu(){
         
     const RenderingMenu = MenuData.map((Data, i) => {
         return (
-            <div id={"MenuElement" + i} className="FlexboxColumn LinkBanner">
+            <div key={item[0]} id={"MenuElement" + i} className="FlexboxColumn LinkBanner">
                 <a href={"" + Data[1]} className="FlexboxRow" > <span> {Data[0]}  </span> </a>    
             </div>
         );
@@ -99,7 +99,7 @@ function ZonaFooterMenu(){
 
     const RenderingMenu = MenuData.map((Data, i) => {
         return (
-            <div id={"MenuElement" + i} className="FlexboxColumn FooterElement">
+            <div key={Data[0]} id={"MenuElement" + i} className="FlexboxColumn FooterElement">
                 <a href={Data[1]}> <span>{Data[0]}</span></a>
             </div>
         );
@@ -127,7 +127,7 @@ function ZonaFooterCursos(){
 
     const RenderingMenu = CursosData.map((Data, i) => {
         return (
-            <div id={"CursoElement" + i} className="FlexboxColumn FooterElement">
+            <div key={Data[0]} id={"CursoElement" + i} className="FlexboxColumn FooterElement">
                 <a href={Data[1]}> <span>{Data[0]}</span> </a>
             </div>
         );

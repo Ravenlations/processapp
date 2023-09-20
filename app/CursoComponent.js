@@ -15,7 +15,7 @@ export default function CursoComponent( {Titulo, Imagen, CodPlan, IdPlan, Horas,
 
     const RenderElementos = ElementoData.map((item,i) => (
     
-        <div className="ElementoCurso FlexboxRow">
+        <div key={item[3]} className="ElementoCurso FlexboxRow">
 
             <div className="IconoElementoCurso"><i className={"fa-" + item[0] + " fa-" + item[1]} ></i> {item[2]} </div>
             <div className="TextoElementoCurso">{item[3]}</div>
