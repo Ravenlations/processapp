@@ -33,8 +33,31 @@ Para aprender sobre NextJS, se pueden usar los siguientes recursos
 - [Aprende Next.js](https://nextjs.org/learn) - Tutorial Interactivo.
 
 
-## Deploy on Vercel
+## Lanzar en AWS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Se usara un servidor de Amazon para poder manejar todo con el NextJS, una vez teniendo la instancia creada se usaran estos comandos para poder ponerla a punto.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Para instalar Node version Manager
+```bash
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
+
+Para instalar nodeJS
+```bash
+  nvm install node
+```
+Para instalar NextJS con todas sus dependencias y cosas chulas
+```bash
+  npm install next@latest react@latest react-dom@latest
+``` 
+Como la web se recoge desde este proyecto de git habra que hacer un clon de este proyecto 
+```bash
+  git clone https://github.com/Ravenlations/processapp
+```
+
+Se ira hasta el directorio en el que se clona el protyecto y se hará funcionar.
+
+
+
+
+
