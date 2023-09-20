@@ -34,7 +34,7 @@ return (
         <div id="CursoContainer1" className="FlexboxRow CursoContainer">
 
             <div className="FotoCursoContainer">
-                <Image src={"https://process-control.pockethost.io/api/files/zvcer496dtdgkpm/"+ id + "/" + Imagen} alt='Imagen del folleto del curso'/> 
+                <Image src={"https://process-control.pockethost.io/api/files/zvcer496dtdgkpm/"+ id + "/" + Imagen} alt='Imagen del folleto del curso' width={100} height={100}/> 
             </div>
 
             <div className="TextoInfoCursoContainer FlexboxColumn">

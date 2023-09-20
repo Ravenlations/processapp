@@ -1,5 +1,4 @@
 
-
 import '../../styles/page.css'
 import Image from 'next/image'
 

@@ -22,12 +22,11 @@ export async function NodoCursos() {
     const courses = await getCourses();
 
     /*Renderizamos todo lo que tiene que ir en el tag*/
-
-    const RenderedItems = courses?.items.map((item,i) => (    
+    
+    const RenderedItems = courses?.items.map((item) => (    
 
         <div key={item.id}>
         <CursoComponent
-            
             Titulo={item.NombreCurso}
             CodPlan={item.CodPlan}
             IdPlan={item.CodEspecial}

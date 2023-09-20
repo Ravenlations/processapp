@@ -14,7 +14,7 @@ function ZonaMenu(){
         
     const RenderingMenu = MenuData.map((Data, i) => {
         return (
-            <div key={item[0]} id={"MenuElement" + i} className="FlexboxColumn LinkBanner">
+            <div key={Data[0]} id={"MenuElement" + i} className="FlexboxColumn LinkBanner">
                 <a href={"" + Data[1]} className="FlexboxRow" > <span> {Data[0]}  </span> </a>    
             </div>
         );
